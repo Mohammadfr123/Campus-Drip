@@ -53,7 +53,7 @@ export default function ThemeToggle() {
             <div className="mt-8 pt-6 border-t border-white/5">
                 <div className="flex justify-between items-center mb-4">
                     <span className="text-[9px] font-bold text-white/30 uppercase tracking-widest">Accent Sync</span>
-                    <div className="w-8 h-4 bg-[#EBFF00] rounded-full" />
+                    <div className="w-8 h-4 bg-[#FF7043] rounded-full" />
                 </div>
                 <p className="text-[9px] text-white/20 italic leading-relaxed">
                   Real-time synchronization across all modular components and 3D primitives.

@@ -21,12 +21,12 @@ export interface Theme {
 
 export const THEMES: Theme[] = [
   {
-    name: 'Midnight Drip',
+    name: 'Sunset Drip',
     colors: {
-      primary: '#EBFF00',
+      primary: '#FF7043',
       secondary: '#0A0A0A',
-      accent: '#FF0055',
-      bgGradient: 'radial-gradient(circle at 50% 50%, rgba(235, 255, 0, 0.05) 0%, rgba(10, 10, 10, 1) 100%)',
+      accent: '#FF5722',
+      bgGradient: 'radial-gradient(circle at 50% 50%, rgba(255, 112, 67, 0.08) 0%, rgba(10, 10, 10, 1) 100%)',
     },
     fonts: {
       sans: '"Inter", sans-serif',
@@ -35,26 +35,12 @@ export const THEMES: Theme[] = [
     },
   },
   {
-    name: 'Neon Vibe',
+    name: 'Midnight Neon',
     colors: {
-      primary: '#00FFCC',
+      primary: '#FF8C42',
       secondary: '#050510',
-      accent: '#FF00FF',
-      bgGradient: 'radial-gradient(circle at 50% 50%, rgba(0, 255, 204, 0.08) 0%, rgba(5, 5, 16, 1) 100%)',
-    },
-    fonts: {
-      sans: '"Inter", sans-serif',
-      display: '"Space Grotesk", sans-serif',
-      graffiti: '"Permanent Marker", cursive',
-    },
-  },
-  {
-    name: 'Urban Rust',
-    colors: {
-      primary: '#FF6F00',
-      secondary: '#1A110B',
-      accent: '#4CAF50',
-      bgGradient: 'radial-gradient(circle at 50% 50%, rgba(255, 111, 0, 0.08) 0%, rgba(26, 17, 11, 1) 100%)',
+      accent: '#FF3D00',
+      bgGradient: 'radial-gradient(circle at 50% 50%, rgba(255, 140, 66, 0.08) 0%, rgba(5, 5, 16, 1) 100%)',
     },
     fonts: {
       sans: '"Inter", sans-serif',

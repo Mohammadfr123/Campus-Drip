@@ -25,7 +25,7 @@ export default function Logo({ className = "" }: { className?: string }) {
         />
         
         {/* Glow effect */}
-        <div className="absolute inset-0 bg-[#EBFF00] blur-xl opacity-20 hover:opacity-50 transition-opacity pointer-events-none" />
+        <div className="absolute inset-0 bg-[#4ade80] blur-xl opacity-20 hover:opacity-50 transition-opacity pointer-events-none" />
       </div>
     </div>
   );

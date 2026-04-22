@@ -57,8 +57,8 @@ export default function ThreeDShowcase({ color }: { color: string }) {
       <Canvas shadows dpr={[1, 2]}>
         <PerspectiveCamera makeDefault position={[0, 0, 5]} />
         <ambientLight intensity={0.5} />
-        <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} intensity={1} />
-        <pointLight position={[-10, -10, -10]} intensity={0.5} />
+        <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} intensity={1} color="#FF7043" />
+        <pointLight position={[-10, -10, -10]} intensity={0.5} color="#FF5722" />
         
         <Scene color={color} />
         
