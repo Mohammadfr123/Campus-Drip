@@ -131,7 +131,7 @@ export default function AiSidebar({ isOpen, onClose, onSelectProduct }: AiSideba
                                       <span className="text-[9px] text-black bg-[var(--brand-primary)] font-black px-2 py-0.5 rounded-full inline-block mt-1">Rs {product.price}</span>
                                    </div>
                                 </div>
-                                <p className="text-[10px] text-white/40 leading-relaxed italic">"{rec.reason}"</p>
+                             <p className="text-[10px] text-white/40 leading-relaxed italic">&quot;{rec.reason}&quot;</p>
                             </div>
                           );
                         })}
